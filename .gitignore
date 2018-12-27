@@ -1,0 +1,10 @@
+# IDE stuff
+.idea
+
+# Dependencies
+vendor
+
+# Jekyll data
+_site
+.sass-cache
+.jekyll-metadata

@@ -1,0 +1,8 @@
+version: '2'
+services:
+  http:
+    image: nginx
+    volumes:
+      - ./_site:/usr/share/nginx/html:ro
+    ports:
+      - 3000:80
